@@ -1,0 +1,26 @@
+/**
+ * ---------------------------------------------------------------------------------------------------- #
+ *
+ * Name-of-your-block
+ *
+ */
+
+.b-demo {
+
+	// Media Queries
+	@include respond-to(desktop) {
+		background: green;
+	}
+
+	@include respond-to(pad) {
+		background: gray;
+	}
+
+	@include respond-to(phone) {
+		background: black;
+	}
+	
+	// Global Styles
+	position: relative;
+
+}

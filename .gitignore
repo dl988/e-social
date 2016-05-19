@@ -1,0 +1,6 @@
+.idea
+.vagrant
+*.log
+frontend/scss/.sass-cache/*
+frontend/js/lib/fabric-link-.js
+frontend/scss/config.rb

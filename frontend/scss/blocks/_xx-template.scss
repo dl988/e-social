@@ -1,0 +1,26 @@
+/**
+ * ---------------------------------------------------------------------------------------------------- #
+ *
+ * Name-of-your-block
+ *
+ */
+
+.b-name-of-your-block {
+
+	// Media Queries
+	@include respond-to(desktop) {
+
+	}
+
+	@include respond-to(pad) {
+
+	}
+
+	@include respond-to(phone) {
+
+	}
+
+	// Global Styles
+	position: relative;
+
+}
