@@ -1,11 +1,3 @@
-// Rounded
-@mixin rounded($radius) {
-	@include border-top-radius($radius);
-	@include border-right-radius($radius);
-	@include border-bottom-radius($radius);
-	@include border-left-radius($radius);
-}
-
 // Respond To
 @mixin respond-to($medias...) {
 	$breakpoints-length: length($respond-to-breakpoints);

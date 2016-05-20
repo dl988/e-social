@@ -1,0 +1,133 @@
+/**
+ * ---------------------------------------------------------------------------------------------------- #
+ *
+ * Block header
+ *
+ */
+
+.b-header {
+
+	// Media Queries
+	@include respond-to(desktop) {
+		
+	}
+
+	@include respond-to(pad) {
+		
+	}
+
+	@include respond-to(phone) {
+		
+	}
+	
+	// Global Styles
+	background-color: #2856b6;
+	color: #fff;
+	padding-top: 3px;
+
+	.section-left,
+	.section-middle,
+	.section-right {
+		display: table;
+	}
+
+	.logo,
+	.search-form,
+	.more-info {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.section-left,
+	.search-form,
+	.more-info {
+		height: 50px;
+	}
+
+	.main-header {
+		max-width: 1200px;
+	}
+
+	// Search form
+
+	.section-middle {
+		width: 100%;
+	}
+
+	.b-form {
+
+		#search-text {
+			padding: 10px;
+			width: 70%;
+			box-sizing: border-box;
+		}
+	}
+
+	.search-form {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	// Header bar
+	.header-bar {
+		@extend .clear-fix;
+
+		border-bottom: 1px solid #e2e2e2;
+		background-color: #fff;
+		margin-top: 3px;
+
+		.items {
+			text-align: center;
+
+			.item {
+				display: inline-block;
+				padding: 10px 20px;
+
+				a {
+					display: inline-block;
+					color: #626c76;
+				}
+
+				&.is-active,
+				&:hover {
+					position: relative;
+					cursor: pointer;
+
+					&:after {
+						content: '';
+						display: block;
+						width: 100%;
+						height: 1px;
+						position: absolute;
+						left: 0;
+						bottom: 0;
+					}
+				}
+
+				&.is-active {
+					&:after {
+						background-color: #2856b6;
+					}
+				}
+
+				&:hover {
+					&:after {
+						background-color: #53b6bf;
+					}
+				}
+
+				.icon {
+					font-size: 12px;
+				}
+
+				.fa-map-marker {
+					font-size: 14px;
+				}
+
+				.fa-tachometer {
+					font-size: 13px;
+				}
+			}
+		} 
+	}
+}

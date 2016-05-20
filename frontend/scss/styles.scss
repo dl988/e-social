@@ -1,13 +1,14 @@
 // Components
 @import "components/font-awesome-master/scss/font-awesome";
 @import "components/elements";
+@import "components/normalize";
 
 //  
 @import "variables/breakpoints";
 @import "variables/colors";
 @import "variables/z-layers";
 @import "variables/typography";
-@import "mixins"; 
-@import "reset";
+@import "mixins";
+@import "common";
 @import "general";
-@import "blocks/demo";
+@import "blocks/header";
