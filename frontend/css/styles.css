@@ -4194,47 +4194,67 @@ body {
 .b-header .main-header {
   max-width: 1200px;
 }
-/* line 53, ../scss/blocks/_header.scss */
+/* line 52, ../scss/blocks/_header.scss */
+.b-header .logo {
+  min-width: 150px;
+}
+/* line 55, ../scss/blocks/_header.scss */
+.b-header .logo i {
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -o-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+}
+/* line 59, ../scss/blocks/_header.scss */
+.b-header .logo p {
+  display: inline-block;
+  position: relative;
+  font-size: 17px;
+  margin: auto;
+  margin-left: 28px;
+}
+/* line 69, ../scss/blocks/_header.scss */
 .b-header .section-middle {
   width: 100%;
 }
-/* line 59, ../scss/blocks/_header.scss */
+/* line 75, ../scss/blocks/_header.scss */
 .b-header .b-form #search-text {
   padding: 10px;
-  width: 70%;
+  width: 80%;
   box-sizing: border-box;
 }
-/* line 66, ../scss/blocks/_header.scss */
+/* line 82, ../scss/blocks/_header.scss */
 .b-header .search-form {
   padding-left: 20px;
   padding-right: 20px;
 }
-/* line 72, ../scss/blocks/_header.scss */
+/* line 88, ../scss/blocks/_header.scss */
 .b-header .header-bar {
   border-bottom: 1px solid #e2e2e2;
   background-color: #fff;
   margin-top: 3px;
 }
-/* line 79, ../scss/blocks/_header.scss */
+/* line 95, ../scss/blocks/_header.scss */
 .b-header .header-bar .items {
   text-align: center;
 }
-/* line 82, ../scss/blocks/_header.scss */
+/* line 98, ../scss/blocks/_header.scss */
 .b-header .header-bar .items .item {
   display: inline-block;
   padding: 10px 20px;
 }
-/* line 86, ../scss/blocks/_header.scss */
+/* line 102, ../scss/blocks/_header.scss */
 .b-header .header-bar .items .item a {
   display: inline-block;
   color: #626c76;
 }
-/* line 91, ../scss/blocks/_header.scss */
+/* line 107, ../scss/blocks/_header.scss */
 .b-header .header-bar .items .item.is-active, .b-header .header-bar .items .item:hover {
   position: relative;
   cursor: pointer;
 }
-/* line 96, ../scss/blocks/_header.scss */
+/* line 112, ../scss/blocks/_header.scss */
 .b-header .header-bar .items .item.is-active:after, .b-header .header-bar .items .item:hover:after {
   content: '';
   display: block;
@@ -4244,23 +4264,23 @@ body {
   left: 0;
   bottom: 0;
 }
-/* line 108, ../scss/blocks/_header.scss */
+/* line 124, ../scss/blocks/_header.scss */
 .b-header .header-bar .items .item.is-active:after {
   background-color: #2856b6;
 }
-/* line 114, ../scss/blocks/_header.scss */
+/* line 130, ../scss/blocks/_header.scss */
 .b-header .header-bar .items .item:hover:after {
   background-color: #53b6bf;
 }
-/* line 119, ../scss/blocks/_header.scss */
+/* line 135, ../scss/blocks/_header.scss */
 .b-header .header-bar .items .item .icon {
   font-size: 12px;
 }
-/* line 123, ../scss/blocks/_header.scss */
+/* line 139, ../scss/blocks/_header.scss */
 .b-header .header-bar .items .item .fa-map-marker {
   font-size: 14px;
 }
-/* line 127, ../scss/blocks/_header.scss */
+/* line 143, ../scss/blocks/_header.scss */
 .b-header .header-bar .items .item .fa-tachometer {
   font-size: 13px;
 }

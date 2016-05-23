@@ -48,8 +48,24 @@
 		max-width: 1200px;
 	}
 
-	// Search form
+	// Logo
+	.logo {
+		min-width: 	150px;
 
+		i {
+			@include scale(2);
+		}
+
+		p {
+			display: inline-block;
+	    position: relative;
+	    font-size: 17px;
+	    margin: auto;
+	    margin-left: 28px;
+		}
+	}
+
+	// Search form
 	.section-middle {
 		width: 100%;
 	}
@@ -58,7 +74,7 @@
 
 		#search-text {
 			padding: 10px;
-			width: 70%;
+			width: 80%;
 			box-sizing: border-box;
 		}
 	}
