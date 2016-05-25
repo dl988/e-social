@@ -1,0 +1,26 @@
+/**
+ * ---------------------------------------------------------------------------------------------------- #
+ *
+ * Name-of-your-block
+ *
+ */
+
+.b-main-container {
+
+	// Media Queries
+	@include respond-to(desktop) {
+
+	}
+
+	@include respond-to(pad) {
+
+	}
+
+	@include respond-to(phone) {
+
+	}
+
+	// Global Styles
+	margin-top: 20px;
+
+}
